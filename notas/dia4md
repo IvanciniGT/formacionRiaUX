@@ -1,0 +1,67 @@
+
+Negocio sabe de NEGOCIO !
+Y tiene necesidades!
+NECESITO UN SISTEMA QUE ME AYUDE A HACER MI TRABAJO.
+¿Cual es tu trabajo? OBJETIVO... para qué?
+¿Qué necesitas? NECESIDADES -> CASOS DE USO
+    -> Ser capaz de modificar los settings de un país.
+    -> Ser capaz de gestionar los providers de un país.
+    -> Ser capaz de gestionar los bancos de un país, con sus sucursales.
+    -> Ser capaz de generar ciertos informes.
+
+Para llegar a eso, qué necesitas? REQUISITOS (Éstos se definen entre NEGOCIO, ANALISIS, UX, DESARROLLO, QA)
+    QA: Es quién valida que el sistema cumple con los requisitos... y por ende debe verificar si esos requisitos están bien definidos y son comprobables.
+    DESARROLLO: Es quién implementa los requisitos, y me debe dar viabilidad técnica.
+    BUSINESS ANALYSIS: Es quién habla con el cliente... para entenderle. Sirve de intérprete entre el cliente y el equipo técnico.                          USEFUL
+        Pero OJO !!!!! Eso es sólo la mitad del trabajo. Debo ser capaz de ir modelando el sistema!
+    UX: Es quién se encarga de que el sistema sea usable. Debe entender al usuario y sus necesidades.                                                       USABLE
+    NEGOCIO: Quién tiene la necesidad
+
+    YAGNI: You Ain't Gonna Need It !
+        De entrada no te lo hago... pero si en el futuro lo necesitas, y me lo pides 50 veces.. me lo pienso.
+
+REQUISITOS: 
+    FUNCIONALES -> FUNCIONALIDAD
+        Debo tener un formulario con X Campos
+    NO FUNCIONALES:
+        USABILIDAD
+            Debo tener un formulario con X Campos, pero que cuando alguien escriba algo mal, que le avise de ello.
+
+---
+
+Vuestro sistema actual:
+- Está TOTALMENTE ORIENTADO A ENTIDADES en lugar de estar orientado a CASOS DE USO.
+  Habéis puesto las tablas de ACCESS en una WEB.
+
+  Paso por pantallas que no aportan valor (puedo hacer al usuario llegar a su cometido sin clic de ratón, mientras que en vuestro sistema para algunas operaciones BASICAS
+  necesito al menos 3 clics... y pasar por pantallas que no aportan valor).
+
+El listado que tenéis SOBRA COMPLETO. El ordenar columnas MAS.. El poner y quitar columnas.
+Los formularios de filtros... prácticamente la mitad SOBRABAN.
+
+---
+
+- STORYBOARD nos ayuda a centrarnos en los CASOS DE USO.
+
+    CASO DE USO:    Ser capaz de modificar los settings de un país
+    USER PERSONA:   Belén
+
+    1. A Belén le llega una petición (o la genera ella) para modificar los settings de un país.         PRISA !!!!
+    2. Accede al sistema y va a la pantalla de settings de un país.
+    3. Modifica los settings.
+    4. Guarda los cambios.
+    5. Está feliz.
+
+    BELÉN Lo que quiere es acabar rápido, para poder hacer otra cosa.
+
+Una vez hecho un STORYBOARD... que hemos tardado 2 minutos... ya tenemos una idea del objetivo del usuario.
+
+Paso siguiente: FLUJO DE ACTIVIDAD
+
+```mermaid
+graph TD
+    A[Belén hace login] --> B[Belén va a la pantalla de settings de un país]
+    B --> C[Belén elige el país que quiere modificar]
+    C --> D[Belén modifica los settings]
+    D --> E[Belén guarda los cambios]
+```

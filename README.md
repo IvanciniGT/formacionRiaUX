@@ -247,6 +247,7 @@ Los storyboards de UX son una herramienta poderosa para los diseñadores y desar
   
 - **Generación de Ideas para el Diseño**: Al visualizar el recorrido del usuario, los equipos pueden identificar nuevas funcionalidades o mejoras en la interfaz que podrían enriquecer la experiencia del usuario.
 ![alt text](imagenes/1_XYM8bUCPuprJLIvfLtQrAA.png)
+
 #### 2.3. Ejemplo de Storyboard de UX
 
 Imagina un storyboard para un **usuario que desea reservar un vuelo a través de una aplicación móvil de viajes**. Este storyboard podría incluir las siguientes etapas:
