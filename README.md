@@ -839,3 +839,8 @@ Las WCAG dividen sus recomendaciones en tres niveles de cumplimiento que refleja
 Al implementar las WCAG en el diseño de UI, es importante realizar pruebas regulares de accesibilidad y trabajar con usuarios que utilizan tecnologías de asistencia, para asegurar que los estándares se traduzcan en una experiencia accesible en el mundo real. Adicionalmente, muchas herramientas de validación de accesibilidad, como WAVE y Axe, pueden ayudar a detectar errores o áreas de mejora en la interfaz.
 
 Siguiendo estos principios y recomendaciones, se puede crear una experiencia más accesible que no solo cumple con los estándares, sino que también mejora la usabilidad general y la satisfacción del usuario.
+
+
+
+
+<https://github.com/GunterMueller/Books-3>
